@@ -39,9 +39,9 @@ Depending on project type the detail section should include:
 
 1. Mandala Generation Templates:
 
-Users will have access to a set of pre-designed mandala templates, allowing them to start coloring immediately without needing design skills.
+- Users will have access to a set of pre-designed mandala templates, allowing them to start coloring immediately without needing design skills.
 
-I will use MandalaR package templates as well as I will also introduce novel algorithms to generate templates.
+- I will use MandalaR package templates as well as I will also introduce novel algorithms to generate templates.
 
 2. Color Customization:
 
@@ -53,30 +53,30 @@ I will use MandalaR package templates as well as I will also introduce novel alg
 
 3. Interactive Plotting Interface:
 
-A simple Shiny-based interface for users to color the mandala using either mouse clicks or keyboard commands.
+- A simple Shiny-based interface for users to color the mandala using either mouse clicks or keyboard commands.
 
 4. Export Functionality:
 
-The MVP will support exporting completed mandalas as image files (e.g., PNG, JPG, SVG) for sharing or printing.
+- The MVP will support exporting completed mandalas as image files (e.g., PNG, JPG, SVG) for sharing or printing.
 
 **Architecture**
 
 1. Plotting Engine (ggplot2  and ggplot extensions):
 
-Mandala patterns and color application will rely on ggplot2 and ggplot2 extensions.
+- Mandala patterns and color application will rely on ggplot2 and ggplot2 extensions.
 
 2. Shiny Application:
 
-A Shiny-based user interface will provide real-time interactivity for users, allowing them to apply colors, generate random patterns, and export their creations.
+- A Shiny-based user interface will provide real-time interactivity for users, allowing them to apply colors, generate random patterns, and export their creations.
 
 3. Website:
 
-A website will be developed using Quarto demonstrating tutorials and also allows uswers to publish their mandalas.
+- A website will be developed using Quarto demonstrating tutorials and also allows uswers to publish their mandalas.
 
 4. Book printing:
 
-I will also print a book based on created mandalas.
+- I will also print a book based on created mandalas.
 
-## Assumptions
+**Assumptions**
 
-The package will be designed with portability in mind. It is assumed that many users will be using laptops or tablets during short breaks, and the package needs to run smoothly without requiring high computational resources or extensive setup.
+- The package will be designed with portability in mind. It is assumed that many users will be using laptops or tablets during short breaks, and the package needs to run smoothly without requiring high computational resources or extensive setup.
