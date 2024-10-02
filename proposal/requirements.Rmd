@@ -8,10 +8,18 @@ An idea of what is required to make the project actually happen
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
 
+- Thiyanga S. talagala will lead the project: design and development of the package.
+
+- BSc (Hons) Degree students  will be asked involved in creating colour palettes, package review, etc.
+
+
+
 ## Processes
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
+
+The tutorials will be shared via github pages and project website to make it easy for the community to use. The accomplishments will be documented and advertised on blog posts, Twitter and Linkedin. The entire project will be conducted within the open source community and components will be therefore be continuously available. 
 
 ## Tools & Tech
 <!--
@@ -22,13 +30,31 @@ Will cloud computing be used - if yes are there are necessary components that wi
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
 
+- All codes will be available on GitHub
+
+
 ## Funding
 <!-- 
 [TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
 
 -->
 
+We request US$ 2,500 for this project.
+
 ## Summary
 <!--
 A summary of the requirements that contextualises the costs
 -->
+
+**Workshops for School Children: USD 1000**
+
+I plan to conduct interactive workshops aimed at introducing school children to basic programming concepts through the creative activity of mandala coloring. These workshops will help bridge the gap between creativity and coding, fostering an interest in programming among younger audiences. The funding will cover materials, venue costs, and any necessary software tools to make the workshops a success.
+
+**Package Development and Authoring: USD 1000**
+
+As the main author and developer of the package, I will be responsible for all aspects of its creation, from coding and design to testing and deployment. The requested funding compensates for the time and expertise required to ensure the package meets the highest standards of usability and functionality. This includes ongoing maintenance and updates to ensure the package remains relevant and effective.
+
+**Book Publishing: USD 500**
+
+I plan to publish a book that complements the package, offering tutorials, creative ideas, and technical insights on how to use the mandala coloring tool effectively. The book will target both beginners in R and those interested in creative coding, helping to further promote the package and expand its reach. The funding will be used for editing, formatting, and publishing costs.
+

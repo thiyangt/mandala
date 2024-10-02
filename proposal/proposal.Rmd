@@ -8,6 +8,22 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
+Research suggests that engaging in creative activities, such as coloring, can significantly reduce stress and anxiety. While the MandalaR package provides a foundation for digital mandala creation within the R programming environment, it lacks certain advanced features that would allow users to personalize their experience more fully. The primary objective of this project is to develop a user-friendly R package that allows users to create and color mandalas. The proposed `mandala` package will be built using R, leveraging existing functions from the MandalaR package. It will include enhanced capabilities such as customizable color schemes.
+
+The development of the mandala coloring R package offers several key benefits to the R community, particularly for data scientists, R programmers, and academics. These advantages extend beyond stress relief, promoting creativity and engagement within the broader R ecosystem.
+
+1. Promotes Well-Being in the R Community
+
+2. Fosters creativity and mental flexibility
+
+3. Strengthens the R Ecosystem with Non-Traditional Applications
+
+4. Elevates the User Experience in the RStudio Environment
+
+5. Useful for attract people who hate programming to 
+
+
+
 ## Detail
 <!--
 Go into more detail about the specifics of the project and it delivers against the problem.
@@ -18,3 +34,49 @@ Depending on project type the detail section should include:
  - [ ] Architecture
  - [ ] Assumptions
 -->
+
+**Minimum variable product features:**
+
+1. Mandala Generation Templates:
+
+Users will have access to a set of pre-designed mandala templates, allowing them to start coloring immediately without needing design skills.
+
+I will use MandalaR package templates as well as I will also introduce novel algorithms to generate templates.
+
+2. Color Customization:
+
+- Basic color palettes and colour-blind friendly will be available, allowing users to fill in mandala segments with colors of their choice.
+
+- A random color generation feature will offer users an option to auto-fill mandalas with color schemes suited to their mood.
+
+- I will also create users to create their own colour palettes from nature inspired schemes, etc. 
+
+3. Interactive Plotting Interface:
+
+A simple Shiny-based interface for users to color the mandala using either mouse clicks or keyboard commands.
+
+4. Export Functionality:
+
+The MVP will support exporting completed mandalas as image files (e.g., PNG, JPG, SVG) for sharing or printing.
+
+**Architecture**
+
+1. Plotting Engine (ggplot2  and ggplot extensions):
+
+Mandala patterns and color application will rely on ggplot2 and ggplot2 extensions.
+
+2. Shiny Application:
+
+A Shiny-based user interface will provide real-time interactivity for users, allowing them to apply colors, generate random patterns, and export their creations.
+
+3. Website:
+
+A website will be developed using Quarto demonstrating tutorials and also allows uswers to publish their mandalas.
+
+4. Book printing:
+
+I will also print a book based on created mandalas.
+
+## Assumptions
+
+The package will be designed with portability in mind. It is assumed that many users will be using laptops or tablets during short breaks, and the package needs to run smoothly without requiring high computational resources or extensive setup.

@@ -10,6 +10,15 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Reporting framework
 -->
 
+The project itself breaks down into three distinct components:
+
+1. Package development: Creating functions to generate mandala designs, select color schemes, and allow for user customization.
+
+2. Educational outreach
+
+3. Book publishing
+
+The project will run from December 1st, 2024, to November 30th, 2025.
 
 ## Technical delivery
 <!--
@@ -17,6 +26,8 @@ Covering the actual delivery of the project this section should provide at least
 
 Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
 -->
+
+The project will deliver an R package, website for the project and book, tutorials explaining the functionalities.
 
 ## Other aspects
 <!--
@@ -28,3 +39,5 @@ Covering non-technical activities like on-going publicity, paper preparation, di
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+
+The group uses email and zoom as its main communication channels with weekly group meetings in place to check on progress and outstanding actions. Major achievements/milestones are typically shared at the UseR/ Posit/ R Consortium conference, blog, and Twitter

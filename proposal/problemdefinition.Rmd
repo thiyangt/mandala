@@ -10,4 +10,8 @@ It is important to cover:
  - [ ] Why it should be tackled
 -->
 
+The rapid pace of modern academic and professional life often leads to stress and mental fatigue, particularly among data scientists, computer scientistics, software engineers, programmers, and academics who spend long hours engaging in cognitively demanding work. Stress reduction techniques  are known to relaxes the body and mind. One such creative activity, coloring mandalas, has been shown to activate creativity, improve focus, cultivates the feeling of happiness, inner peace and induce a meditative state of mind.
 
+This proposal outlines the development of an R package for mandala coloring, building on the existing MandalaR package, which has been useful but lacks certain features. 
+
+The new package will allowing users to engage in coloring mandala during short breaks or even while traveling, without the need for physical materials such as coloring books or pencils.

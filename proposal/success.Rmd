@@ -3,20 +3,39 @@
 Projects should have a definition of done that is measurable, and a thorough understanding going in of what the risks are to delivery 
 -->
 
+The project is successful if an R package is available on CRAN and workflows and tutorials are documented in vignettes, book (using `bookdown`) and blog posts. 
+
 ## Definition of done
 <!-- 
 What does success look like? 
 -->
+
+The project is finished when an R package is on CRAN that provides proposed functionalities and documentation, vignettes and blog posts advertise the functionality, and tweets inform users about it, the proposed workshop is completed and book is published.
 
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
 
+* The R package will be developed on a GitHub repository, so that issues, forks, stars and commit messages can be tracked
+to see the project status
+
+
+* Tweets, Linkedin will be used as social media platforms to inform the package. Retweets, shares and the number of views will be used to evaluate user engagement and interest.
+
+* Google Analytics of the website will also be used as a measure.
+
+* Number of participants for the workshop.
+
+* Number of copies sold.
+
+
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
+
+I plan to work with the Ministry of Education, Sri Lanka to develop lesson plans and educational modules that incorporate the package into school curriculums. This can introduce students to programming, mathematics and data visualization concepts in a fun and engaging way.
 
 ## Key risks
 <!-- 
@@ -28,3 +47,7 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+
+One of the primary challenges anticipated in the development and growth of the mandala coloring R package is finding a dedicated team of collaborators who can commit time and effort to the project. However, the initial development phase will be primarily handled by me.
+
+Another significant challenge faced, particularly in Sri Lanka, is the issue of brain drain. Many recent graduates are focused on preparing for exams like IELTS and TOEFL in hopes of pursuing opportunities abroad. As a result, it becomes extremely difficult to find local talent that can dedicate time and effort to projects.
